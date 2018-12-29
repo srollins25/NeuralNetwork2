@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E251656421D6AE430098A080 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251656321D6AE430098A080 /* Block.swift */; };
+		E251656621D6EC0C0098A080 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251656521D6EC0C0098A080 /* Test2.swift */; };
+		E273357C21D343BB0052E939 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273357B21D343BB0052E939 /* Test.swift */; };
 		E274408521D076880092A6F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274408421D076880092A6F0 /* AppDelegate.swift */; };
 		E274408721D076880092A6F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274408621D076880092A6F0 /* ViewController.swift */; };
 		E274408A21D076890092A6F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274408821D076890092A6F0 /* Main.storyboard */; };
 		E274408C21D0768B0092A6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E274408B21D0768B0092A6F0 /* Assets.xcassets */; };
 		E274408F21D0768B0092A6F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274408D21D0768B0092A6F0 /* LaunchScreen.storyboard */; };
+		E274409721D076B20092A6F0 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274409621D076B20092A6F0 /* NeuralNetwork.swift */; };
+		E274409921D0849C0092A6F0 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274409821D0849C0092A6F0 /* Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E251656321D6AE430098A080 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		E251656521D6EC0C0098A080 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		E273357B21D343BB0052E939 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		E274408121D076880092A6F0 /* NeuralNetwork2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuralNetwork2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E274408421D076880092A6F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E274408621D076880092A6F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		E274408B21D0768B0092A6F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E274408E21D0768B0092A6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E274409021D0768B0092A6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E274409621D076B20092A6F0 /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		E274409821D0849C0092A6F0 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				E274408421D076880092A6F0 /* AppDelegate.swift */,
+				E251656321D6AE430098A080 /* Block.swift */,
 				E274408621D076880092A6F0 /* ViewController.swift */,
+				E273357B21D343BB0052E939 /* Test.swift */,
+				E251656521D6EC0C0098A080 /* Test2.swift */,
+				E274409821D0849C0092A6F0 /* Matrix.swift */,
+				E274409621D076B20092A6F0 /* NeuralNetwork.swift */,
 				E274408821D076890092A6F0 /* Main.storyboard */,
 				E274408B21D0768B0092A6F0 /* Assets.xcassets */,
 				E274408D21D0768B0092A6F0 /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E274409921D0849C0092A6F0 /* Matrix.swift in Sources */,
+				E251656621D6EC0C0098A080 /* Test2.swift in Sources */,
 				E274408721D076880092A6F0 /* ViewController.swift in Sources */,
+				E273357C21D343BB0052E939 /* Test.swift in Sources */,
+				E251656421D6AE430098A080 /* Block.swift in Sources */,
 				E274408521D076880092A6F0 /* AppDelegate.swift in Sources */,
+				E274409721D076B20092A6F0 /* NeuralNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
